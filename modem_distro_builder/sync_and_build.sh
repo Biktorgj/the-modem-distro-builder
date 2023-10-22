@@ -14,4 +14,4 @@ else
     git pull && \
     cd $BASE_PATH
 fi
-cd ${TARGET_PATH} && ./init.sh && chown -R buildusr:buildusr ${TARGET_PATH} && sudo -u buildusr make everything 
+cd ${TARGET_PATH} && ./init.sh && chown -R buildusr:buildusr ${TARGET_PATH} && sudo -u buildusr make build 
