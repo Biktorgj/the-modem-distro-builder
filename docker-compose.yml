@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+    modem_distro_builder:
+        container_name: modem_distro_builder
+        build: modem_distro_builder
+        volumes:
+            - ./modem_build_vol:/modem_build_vol:rw
