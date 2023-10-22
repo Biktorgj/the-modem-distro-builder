@@ -9,3 +9,5 @@ Once you have the required packages, run:
 
 To rebuild the image if you change something, run `docker-compose up --build`
 If you want to just leave it running without looking at the output and blocking your terminal, run `docker-compose up -d`, you can watch the output later with `docker logs modem_distro_builder -f`
+
+NOTE: Every time you start the container, the script will re-sync all the remote repos, so every time you run it, it will be the most up-to-date tree
