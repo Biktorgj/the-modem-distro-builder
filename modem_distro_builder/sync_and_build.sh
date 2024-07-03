@@ -3,7 +3,7 @@ set -e
 
 BASE_PATH=`pwd`
 TARGET_PATH="/modem_build_vol/repos"
-TARGET_BRANCH="mickledore"
+TARGET_BRANCH="langdale"
 if [ ! -d ${TARGET_PATH}/docs ]
 then
     echo "--> Fetching the main repo..."
